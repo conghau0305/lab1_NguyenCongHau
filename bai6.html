@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 6</title>
+</head>
+<style>
+    /*cau a*/
+    .a table {
+        width: 300px;
+        border: 8px solid rgb(246, 240, 170);
+    }
+    .a .orange {
+        background-color: orange;
+    }
+    .a .yellow {
+        background-color: yellow;
+    }
+    .a th{
+        border: 1px solid rgb(186, 182, 144);
+    }
+    /*cau b1*/
+    .b {
+        position: relative;
+        display: flex;
+    }
+    .b .b1 table{
+        width: 200px;
+    }
+    .b .b1 th{
+       border: 1px solid #000; 
+    }
+    .b .b1 {
+        margin: 30px;
+        padding: 5px;
+        background-color: orange;
+        width: 200px;
+    }
+    .b .b1 .footer {
+        font-size: 10px;
+        color: rgb(169, 5, 5);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*b2*/
+    .b .b2 {
+        margin-top: 150px;
+        padding-top: 30px;
+        background-color: rosybrown;
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    .b .b2 table{
+        width: 150px;
+        border: 1px solid #000;
+    }
+    .b .b2 th{
+        border: 1px solid #000;
+    }
+    .b .b2 .first {
+        background-color: rosybrown;
+        width: 130px;
+        height: 60px;
+    }
+    /*b3*/
+    .b .b3 table {
+        width: 150px;
+        border: 1px solid #000;
+    }
+    .b .b3 th {
+        border: 1px solid #000;
+    }
+    .b .b3 {
+        margin-top: 150px;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+    /*cau c*/
+    .c {
+        background-color: orange;
+        width: 600px;
+        border-radius: 1%;
+        border-bottom: 5px solid orange;
+        border-left: 5px solid orange;
+        border-right: 5px solid orange;
+    }
+    .c table {
+        width: 600px;
+        border: 3px solid rgb(234, 4, 123);
+        background-color: rgb(245, 212, 234);
+    }
+    .c th {
+        border: 1px solid palevioletred;
+        color: rgb(43, 161, 245);
+    }
+    .c .pink {
+        background-color: rgb(240, 107, 176);
+        color: #000;
+    }
+    .c .blue {
+        background-color: rgb(90, 217, 239);
+        font-size: 12px;
+        color: #000;
+    }
+    .c p{
+        text-align: center;
+        margin-bottom: 0px;
+        color: rgb(242, 49, 149);
+        padding-top: 5px;
+    }
+</style>
+
+<body>
+    <div class="a">
+        <table>
+            <tr>
+                <th >1</th>
+                <th colspan=3>2</th>
+            </tr>
+            <tr>
+                <th rowspan="3">3</th>
+                <th class="orange">4</th>
+                <th class="orange">5</th>
+                <th rowspan="2" class="yellow">6</th>
+            </tr>
+            <tr>
+                <th class="orange">7</th>
+                <th class="orange">8</th>
+            </tr>
+            <tr>
+                <th colspan="2" class="yellow">9</th>
+                <th class="yellow">10</th>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div class="b">
+        <div class="b1">
+            <table>
+                <tr>
+                    <th>(1)</th>
+                    <th>(2)</th>
+                    <th>(3)</th>
+                    <th colspan="3">(4)</th>
+                    <th>(5)</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th colspan="5" class="footer"><u>Part I</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="2"></th>
+                    <th colspan="4" class="footer"><u>Chapter 1</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="3"></th>
+                    <th colspan="3" class="footer"><u>Section A</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="3"></th>
+                    <th colspan="3" class="footer"><u>Section B</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="2"></th>
+                    <th colspan="4" class="footer"><u>Chapter 2</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="3"></th>
+                    <th colspan="3" class="footer"><u>Section A</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="3"></th>
+                    <th colspan="3" class="footer"><u>Section B</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th colspan="5" class="footer"><u>Part II</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="2"></th>
+                    <th colspan="4" class="footer"><u>Chapter 3</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="3"></th>
+                    <th colspan="3" class="footer"><u>Section A</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="3"></th>
+                    <th colspan="3" class="footer"><u>Section B</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="2"></th>
+                    <th colspan="4" class="footer"><u>Chapter 4</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="3"></th>
+                    <th colspan="3" class="footer"><u>Section A</u></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th colspan="3"></th>
+                    <th colspan="3" class="footer"><u>Section B</u></th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+        <div class="b2">
+            <h3>With cellpadding: </h3>
+            <table class="first">
+                <tr>
+                    <th>6.470</th>
+                    <th>6.470</th>
+                </tr>
+                <tr>
+                    <th>6.470</th>
+                    <th>6.470</th>
+                </tr>
+            </table>
+        </div>
+        <div class="b3">
+            <h4>Table with spanning row:</h4>
+            <table class="first">
+                <tr>
+                    <th>6.470</th>
+                    <th>6.470</th>
+                </tr>
+                <tr>
+                    <th rowspan="2">6.470</th>
+                    <th>6.470</th>
+                </tr>
+                <tr>
+                    <th>6.470</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <hr>
+        <div class="c">
+            <table>
+                <p><b>NUMBERS 1-5 in VARIOUS LANGUAGES</b></p>
+                <tr>
+                    <th></th>
+                    <th class="pink"><u>English</u></th>
+                    <th class="pink"><u>Espanol</u></th>
+                    <th class="pink"><u>Francais</u></th>
+                    <th class="pink"><u>Italiano</u></th>
+                    <th class="pink"><u>Deutsch</u></th>
+                </tr>
+                <tr>
+                    <th class="blue">1</th>
+                    <th>one</th>
+                    <th>uno</th>
+                    <th>un</th>
+                    <th>uno</th>
+                    <th>eins</th>
+                </tr>
+                <tr>
+                    <th class="blue">2</th>
+                    <th>two</th>
+                    <th>dos</th>
+                    <th>deux</th>
+                    <th>due</th>
+                    <th>zwei</th>
+                </tr>
+                <tr>
+                    <th class="blue">3</th>
+                    <th>three</th>
+                    <th>tres</th>
+                    <th>trois</th>
+                    <th>tre</th>
+                    <th>drei</th>
+                </tr>
+                <tr>
+                    <th class="blue">4</th>
+                    <th>four</th>
+                    <th>cuatro</th>
+                    <th>quattre</th>
+                    <th>quattro</th>
+                    <th>vier</th>
+                </tr>
+                <tr>
+                    <th class="blue">5</th>
+                    <th>five</th>
+                    <th>cinco</th>
+                    <th>cing</th>
+                    <th>cinque</th>
+                    <th>funf</th>
+                </tr>
+            </table>
+        </div>
+</body>
+</html>
